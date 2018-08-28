@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class string_to_int 
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        int A=Integer.parseInt(a);
+        String b=sc.nextLine();
+        int B=Integer.parseInt(b);
+        if(A>B)
+        {
+        System.out.println(A);
+        }
+        else
+        {
+        System.out.println(B);
+        }
+}
+}

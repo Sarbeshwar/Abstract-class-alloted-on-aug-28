@@ -1,0 +1,40 @@
+interface Animal_New
+{
+	void speak();
+	void eat();
+}
+class Dog_New implements Animal_New
+{
+	public void speak()
+	{
+		System.out.println("Dog Barks");
+	}
+	public void  eat()
+	{
+		System.out.println("Dog eats Pedigree");	
+	}
+}
+class Cat_New implements Animal_New
+{
+	public void speak()
+	{
+		System.out.println("Cat Meows");
+	}
+	public void eat()
+	{
+		System.out.println("Cats love Milk");
+	}
+}
+public class Interfaces {
+
+	public static void main(String[] args) {
+	 Animal_New obj=new Dog_New();
+	 Animal_New obj2=new Cat_New();
+	 obj.speak();
+	 obj.eat();
+	 obj2.speak();
+	 obj2.eat();
+
+	}
+
+}
